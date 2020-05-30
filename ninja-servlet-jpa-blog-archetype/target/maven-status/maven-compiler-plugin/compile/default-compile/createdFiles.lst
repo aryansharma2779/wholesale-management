@@ -1,0 +1,15 @@
+conf\StartupActions.class
+etc\LoggedInUserExtractor.class
+models\Article.class
+conf\Filters.class
+models\User.class
+dao\UserDao.class
+controllers\ApplicationController.class
+conf\Routes.class
+models\ArticleDto.class
+dao\SetupDao.class
+models\ArticlesDto.class
+etc\LoggedInUser.class
+filters\LoggerFilter.class
+conf\Module.class
+controllers\LoginLogoutController.class

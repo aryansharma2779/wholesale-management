@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: controllers.ApplicationControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.852 sec <<< FAILURE! - in controllers.ApplicationControllerTest
+testThatHomepageWorks(controllers.ApplicationControllerTest)  Time elapsed: 1.85 sec  <<< FAILURE!
+java.lang.AssertionError
+	at controllers.ApplicationControllerTest.testThatHomepageWorks(ApplicationControllerTest.java:41)
+

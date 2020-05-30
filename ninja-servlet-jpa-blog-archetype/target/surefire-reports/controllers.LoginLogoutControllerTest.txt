@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: controllers.LoginLogoutControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.8 sec <<< FAILURE! - in controllers.LoginLogoutControllerTest
+testLogingLogout(controllers.LoginLogoutControllerTest)  Time elapsed: 0.799 sec  <<< FAILURE!
+java.lang.AssertionError
+	at controllers.LoginLogoutControllerTest.testLogingLogout(LoginLogoutControllerTest.java:43)
+

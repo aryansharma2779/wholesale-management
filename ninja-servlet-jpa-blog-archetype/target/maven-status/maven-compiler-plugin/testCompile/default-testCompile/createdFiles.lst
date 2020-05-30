@@ -1,0 +1,3 @@
+controllers\ApplicationControllerTest.class
+controllers\ApplicationControllerFluentLeniumTest.class
+controllers\LoginLogoutControllerTest.class

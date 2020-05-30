@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="controllers.ApplicationControllerTest" time="1.852" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\0\wholesale-management-try"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\0\wholesale-management-try"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ARYANS~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_241\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Aryan Sharma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2019.3.1\bin;C:\Users\Aryan Sharma\AppData\Local\GitHubDesktop\bin;C:\Users\Aryan Sharma\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Aryan Sharma"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Aryan Sharma"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testThatHomepageWorks" classname="controllers.ApplicationControllerTest" time="1.85">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at controllers.ApplicationControllerTest.testThatHomepageWorks(ApplicationControllerTest.java:41)
+</failure>
+    <system-out><![CDATA[00:26:59.121 [main] INFO  ninja.utils.NinjaModeHelper - Ninja is running in mode prod
+00:26:59.137 [main] WARN  o.e.j.server.handler.ContextHandler - Empty contextPath
+00:26:59.140 [main] INFO  ninja.standalone.NinjaJetty - Trying to start jetty v9.4.18.v20190429 on <all>:1000, 8443/ssl
+00:26:59.140 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_241-b07
+00:26:59.144 [main] INFO  ninja.servlet.NinjaServletListener - Using JSR-356 websocket container ServerContainer@57cfb4d8{STARTED}
+00:26:59.144 [main] INFO  ninja.Bootstrap - Successfully configured Logback.
+00:26:59.144 [main] INFO  ninja.Bootstrap - Enabling Ninja classic configuration
+00:26:59.315 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_en.properties (not a bad thing necessarily, but I am returing null)
+00:26:59.315 [main] INFO  ninja.i18n.MessagesImpl - Did not find conf/messages_en.properties but it was specified in application.conf. Using default language instead.
+00:26:59.331 [main] INFO  n.template.TemplateEngineManagerImpl - -------------------------------------------------------------------
+00:26:59.331 [main] INFO  n.template.TemplateEngineManagerImpl - Registered response template engines
+00:26:59.332 [main] INFO  n.template.TemplateEngineManagerImpl - -------------------------------------------------------------------
+00:26:59.332 [main] INFO  n.template.TemplateEngineManagerImpl - application/javascript  =>  ninja.template.TemplateEngineJsonP
+00:26:59.332 [main] INFO  n.template.TemplateEngineManagerImpl - application/json        =>  ninja.template.TemplateEngineJson
+00:26:59.332 [main] INFO  n.template.TemplateEngineManagerImpl - application/xml         =>  ninja.template.TemplateEngineXml
+00:26:59.332 [main] INFO  n.template.TemplateEngineManagerImpl - text/html               =>  ninja.template.TemplateEngineFreemarker
+00:26:59.332 [main] INFO  n.template.TemplateEngineManagerImpl - text/plain              =>  ninja.template.TemplateEngineText
+00:26:59.334 [main] INFO  n.b.BodyParserEngineManagerImpl - -------------------------------------------------------------------------------------
+00:26:59.335 [main] INFO  n.b.BodyParserEngineManagerImpl - Registered request bodyparser engines
+00:26:59.336 [main] INFO  n.b.BodyParserEngineManagerImpl - -------------------------------------------------------------------------------------
+00:26:59.337 [main] INFO  n.b.BodyParserEngineManagerImpl - application/json                   =>  ninja.bodyparser.BodyParserEngineJson
+00:26:59.337 [main] INFO  n.b.BodyParserEngineManagerImpl - application/x-www-form-urlencoded  =>  ninja.bodyparser.BodyParserEnginePost
+00:26:59.338 [main] INFO  n.b.BodyParserEngineManagerImpl - application/xml                    =>  ninja.bodyparser.BodyParserEngineXml
+00:26:59.338 [main] INFO  n.b.BodyParserEngineManagerImpl - multipart/form-data                =>  ninja.bodyparser.BodyParserEngineMultipartPost
+00:26:59.339 [main] INFO  ninja.Bootstrap - Ninja injector started in 194 ms.
+00:26:59.345 [main] INFO  ninja.RouterImpl - ------------------------------------------------------------------------
+00:26:59.345 [main] INFO  ninja.RouterImpl - Registered routes
+00:26:59.345 [main] INFO  ninja.RouterImpl - ------------------------------------------------------------------------
+00:26:59.346 [main] INFO  ninja.RouterImpl - GET  /setup                          =>  controllers.ApplicationController::setup
+00:26:59.346 [main] INFO  ninja.RouterImpl - GET  /                               =>  controllers.ApplicationController::index
+00:26:59.346 [main] INFO  ninja.RouterImpl - GET  /login                          =>  controllers.LoginLogoutController::login
+00:26:59.346 [main] INFO  ninja.RouterImpl - POST /login                          =>  controllers.LoginLogoutController::loginPost
+00:26:59.346 [main] INFO  ninja.RouterImpl - GET  /logout                         =>  controllers.LoginLogoutController::logout
+00:26:59.346 [main] INFO  ninja.RouterImpl - POST /order                          =>  controllers.ApplicationController::getUserNameFromSession
+00:26:59.347 [main] INFO  ninja.RouterImpl - GET  /assets/webjars/{fileName: .*}  =>  ninja.AssetsController::serveWebJars
+00:26:59.347 [main] INFO  ninja.RouterImpl - GET  /assets/{fileName: .*}          =>  ninja.AssetsController::serveStatic
+00:26:59.347 [main] INFO  ninja.RouterImpl - GET  /.*                             =>  controllers.ApplicationController::index
+00:26:59.348 [main] INFO  ninja.NinjaDefault - 
+ _______  .___ _______        ____.  _____   
+ \      \ |   |\      \      |    | /  _  \  
+ /   |   \|   |/   |   \     |    |/  /_\  \ 
+/    |    \   /    |    \/\__|    /    |    \  http://www.ninjaframework.org
+\____|__  /___\____|__  /\________\____|__  /  @ninjaframework
+     web\/framework   \/                  \/   6.6.1
+
+00:26:59.348 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+00:26:59.350 [main] INFO  n.migrations.MigrationEngineProvider - Using ninja.migrations.flyway.MigrationEngineFlyway as default implementation for ninja.migrations.MigrationEngine
+00:26:59.354 [main] WARN  org.flywaydb.core.Flyway - Direct configuration of the Flyway object has been deprecated and will be removed in Flyway 6.0. Use Flyway.configure() instead.
+00:26:59.371 [main] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:h2:./target/h2database_test (H2 1.4)
+00:26:59.392 [main] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "PUBLIC" (execution time 00:00.010s)
+00:26:59.418 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.006s)
+00:26:59.424 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table: "PUBLIC"."flyway_schema_history"
+00:26:59.431 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+00:26:59.431 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version 1 - 
+00:26:59.442 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version 2 - 
+00:26:59.447 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC" (execution time 00:00.023s)
+00:26:59.450 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+00:26:59.451 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+00:26:59.451 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+00:26:59.501 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: h2_test
+	...]
+00:26:59.560 [main] INFO  o.h.e.j.c.i.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+00:26:59.561 [main] INFO  o.h.c.i.C3P0ConnectionProvider - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./target/h2database_test
+00:26:59.561 [main] INFO  o.h.c.i.C3P0ConnectionProvider - HHH000046: Connection properties: {user=ra, password=****}
+00:26:59.561 [main] INFO  o.h.c.i.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+00:26:59.696 [main] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@56e713ce [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@a5b7c482 [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgf08xaar4u88w12uoffn|456c528c, idleConnectionTestPeriod -> 300, initialPoolSize -> 0, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 100, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 0, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@5b05f49e [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hgf08xaar4u88w12uoffn|7a50482c, jdbcUrl -> jdbc:h2:./target/h2database_test, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hgf08xaar4u88w12uoffn|74d76660, numHelperThreads -> 3 ]
+00:26:59.715 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:26:59.715 [main] INFO  o.h.e.j.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:26:59.726 [main] INFO  o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+00:26:59.775 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 427ms
+00:26:59.775 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7240599c{/,null,AVAILABLE}
+00:26:59.779 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@738ed8d3{HTTP/1.1,[http/1.1]}{0.0.0.0:1000}
+00:26:59.780 [main] INFO  o.e.jetty.util.ssl.SslContextFactory - x509=X509@a151493(ninja-development,h=[],w=[]) for SslContextFactory@7359781c[provider=null,keyStore=null,trustStore=null]
+00:26:59.788 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@45f32b12{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+00:26:59.788 [main] INFO  org.eclipse.jetty.server.Server - Started @15917ms
+00:26:59.788 [main] INFO  ninja.standalone.NinjaJetty - Started jetty v9.4.18.v20190429 on <all>:1000, 8443/ssl
+00:26:59.788 [main] INFO  ninja.standalone.NinjaJetty - -------------------------------------------------------
+00:26:59.789 [main] INFO  ninja.standalone.NinjaJetty - Ninja application running at
+00:26:59.789 [main] INFO  ninja.standalone.NinjaJetty -  => http://localhost:1000
+00:26:59.789 [main] INFO  ninja.standalone.NinjaJetty -  => https://localhost:8443
+00:26:59.789 [main] INFO  ninja.standalone.NinjaJetty - -------------------------------------------------------
+00:27:00.024 [qtp1551639246-50] ERROR n.t.TemplateEngineFreemarkerAssetsAtMethod - Message key BIG BAZAAR missing. Using key as value inside template - but this is most likely not what you want.
+00:27:00.036 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Stopping Ninja application...
+00:27:00.037 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application stopped in 1ms
+00:27:00.037 [main] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7240599c{/,null,UNAVAILABLE}
+00:27:00.037 [main] INFO  ninja.standalone.NinjaJetty - Trying to stop jetty on <all>:1000, 8443/ssl
+00:27:00.055 [main] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@738ed8d3{HTTP/1.1,[http/1.1]}{0.0.0.0:1000}
+00:27:00.057 [main] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@45f32b12{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+00:27:00.061 [main] INFO  ninja.standalone.NinjaJetty - Stopped jetty on <all>:1000, 8443/ssl
+]]></system-out>
+  </testcase>
+</testsuite>

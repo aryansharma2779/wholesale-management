@@ -1,0 +1,129 @@
+<#import "../layout/defaultLayout.ftl.html" as layout> 
+<@layout.myLayout "Home page">    
+
+
+
+<br><br>
+<h2 align="center">WELCOME TO WHOLESALE</h1>
+<h2 align="center">ORDER HERE!!!</h1>
+<br><br><br><br>
+
+	<div class="row" style="background-color:orange">
+		<div class="column" style="float: left;width:20%;padding: 10px; height: 370px;"></div>
+  
+		<div class="column" style="float: left;width: 58%;padding-top: 20px; height: 350px;">
+  		<form action="/order" method="post" id="form1">
+  			 <table style="width:100%">
+  				<tr>
+    				<th>item id</th>
+    				<th>item name</th>
+    				<th>Price</th>
+    				<th>Enter customer orders</th>
+    				
+  				</tr>
+  				<tr>
+    				<td name="151501">151501</td>
+    				<td name="chocolate">Chocolate</td>
+    				<td >50</td>
+    				<td><input  class="price" placeholder="price if ordered" type="text"></td>
+    				
+  				</tr>
+  				<tr>
+    				<td name="151501">151501</td>
+    				<td name="cold drink">cold drink(2L)</td>
+    				<td >50</td>
+    				<td><input  class="price" placeholder="price if ordered" type="text"></td>
+    				
+  				</tr>
+  				<tr>
+    				<td name="151501">151501</td>
+    				<td name="Haldiram namkeen">Haldiram namkeen</td>
+    				<td >50</td>
+    				<td><input  class="price" placeholder="price if ordered" type="text"></td>
+    				
+  				</tr>
+  				<tr>
+    				<td name="151501">151501</td>
+    				<td name="Table lamp">Table lamp</td>
+    				<td >50</td>
+    				<td><input  class="price" placeholder="price if ordered" type="text"></td>
+    				
+  				</tr>
+  				<tr>
+    				<td name="151501">151501</td>
+    				<td name="Perfume">Perfume</td>
+    				<td >50</td>
+    				<td><input  class="price" placeholder="price if ordered" type="text"></td>
+    				
+  				</tr>
+  				<tr>
+    				<td name="151502">151502</td>
+    				<td >BEDSHEET</td>
+    				
+    				<td>250</td>
+    				<td ><input class="price" placeholder="price if ordered" type="text"></td>
+    				
+  				</tr>
+  				<tr>
+    				<td>151503</td>
+    				<td>poco f1 mobile phone</td>
+    				
+    				<td>18500</td>
+    				<td ><input class="price" type="text" placeholder="price if ordered"></td>
+  				</tr>
+  				<tr>
+    				<td>151504</td>
+    				<td>Carpet</td>
+    				
+    				<td>400</td>
+    				<td ><input class="price" type="text" placeholder="price if ordered"></td>
+  				</tr>
+  				<tr>
+        			<td></td><td></td>
+        			<td>Total Amount</td>
+				        <td><br><input type='text' id='totalPrice' placeholder="Total amount"/></td>
+    			</tr>
+    			
+  			<tr>
+  			<td>Payment mode</td>
+  			<td>Cash <input name="mode" type="radio"/></td>
+  			<td>Online<input name="mode" type="radio"/></td>
+  			</tr>
+			
+			<tr><td></td><td><br>
+			<button type="submit"  form="form1" value="Save Order">Submit</button></td>
+			<td></td>	
+  			</tr>
+ </table> 
+</form>
+
+   		</div>  
+  
+<div class="column" style="float: left;width: 20%;padding: 10px; height: 350px;"></div>
+</div> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js "></script>
+ 
+<script>
+//we used jQuery 'keyup' to trigger the computation as the user type
+$('.price').keyup(function () {
+ 
+    // initialize the sum (total price) to zero
+    var sum = 0;
+     
+    // we use jQuery each() to loop through all the textbox with 'price' class
+    // and compute the sum for each loop
+    $('.price').each(function() {
+        sum += Number($(this).val());
+    });
+     
+    // set the computed value to 'totalPrice' textbox
+    $('#totalPrice').val(sum);
+     
+});
+
+    
+</script>
+<br><br>
+<br><br>
+</@layout.myLayout>
