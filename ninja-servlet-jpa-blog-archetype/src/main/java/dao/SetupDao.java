@@ -48,7 +48,6 @@ public class SetupDao {
             // Create a new user and save it
             User admin = new User("aryan@gmail.com", "learning", "aryan");
             entityManager.persist(admin);
-            
   
             entityManager.setFlushMode(FlushModeType.COMMIT);
             entityManager.flush();

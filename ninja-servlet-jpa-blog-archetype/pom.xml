@@ -144,6 +144,15 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+
+<groupId>org.ninjaframework</groupId>
+
+<artifactId>ninja-maven-plugin</artifactId>
+
+<version>${ninja.version}</version>
+
+</plugin>
         </plugins>
         <resources>
             <resource>
@@ -194,7 +203,22 @@
             <version>${ninja.version}</version>
         </dependency>
         -->
-        
+        <groupId>org.ninjaframework</groupId>
+
+<artifactId>ninja-servlet</artifactId>
+
+<version>${ninja.version}</version>
+
+</dependency>
+<dependency>
+
+<groupId>mysql</groupId>
+
+<artifactId>mysql-connector-java</artifactId>
+
+<version>5.1.37</version>
+
+</dependency>
         <!--  to sanitise input so no XSS -->
         <dependency>
 		    <groupId>com.googlecode.owasp-java-html-sanitizer</groupId>
